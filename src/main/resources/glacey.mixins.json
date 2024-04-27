@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.glacey.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "bugfix.alexfix.PlayerEntityModelMixin",
+    "bugfix.mousebindfix.HandledScreenMixin",
+    "bugfix.noclosemychat.CloseScreenS2CPacketMixin",
+    "event.ClientConnectionMixin",
+    "event.ClientPlayerEntityMixin",
+    "event.GameRendererMixin",
+    "event.InGameHudMixin",
+    "event.MinecraftClientMixin",
+    "bugfix.preventinventorypush.InventoryScreenMixin",
+    "feature.clearchat.ChatHudMixin",
+    "rawinput.MinecraftClientMixin",
+    "feature.cleanview.LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
